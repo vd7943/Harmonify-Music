@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmonify - Web Player: Music for everyone</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="home bg-grey rounded">
+                <div class="logo">
+                    <img src="assets/logo.svg" alt="logo">
+                </div>
+
+                <ul>
+                    <li><img src="assets/home.svg" alt="home" class="invert">Home</li>
+                    <li><img src="assets/search.svg" alt="search" class="invert">Search</li>
+
+                </ul>
+            </div>
+            <div class="library bg-grey rounded">
+                <div class="heading">
+                    <img src="assets/playlist.svg" alt="" class="invert">
+                    <h3>Your Library</h3>
+                    <i class="fa-regular fa-plus"></i>
+                </div>
+
+                <!-- songLists -->
+                <div class="songList">
+                    <ul>
+
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Safety & Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+                <div class="cookies"><a href="https://www.spotify.com/jp/cookies/"><span>Cookies</span></a></div>
+
+                <div class="lang invert">
+                    <button>
+                        <i class="fa-solid fa-globe"></i>
+                        <h5>English</h5>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        <div class="right rounded">
+            <div class="header rounded">
+                <div class="nav">
+                    <div class="hamburger">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="sign-up">Sign up</button>
+                    <button class="log-in">Log in</button>
+                </div>
+            </div>
+
+            <div class="playlist">
+                <h1>Harmonify Playlists</h1>
+                <div class="card-container">
+
+                </div>
+
+                <!-- playbar -->
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="abovebar">
+                        <div class="song-info">
+
+                        </div>
+                        <div class="song-buttons invert">
+                            <div><img src="assets/prevsong.svg" alt="" id="previous"></div>
+                            <div><img src="assets/play.svg" alt="" id="play"></div>
+                            <div><img src="assets/nextsong.svg" alt="" id="next"></div>
+                        </div>
+
+                        <div class="song-time">
+
+                        </div>
+                        <div class="volume">
+                            <img src="assets/volume.svg" alt="Volume" class="invert" width="27px">
+                            <div class="range" id="range">
+                                <input type="range" name="volume">
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="footer-right">
+
+                    <div class="company-footer">
+                        <h4>Company</h4>
+                        <p>About</p>
+                        <p>Jobs</p>
+                        <p>For the Record</p>
+                    </div>
+                    <div class="company-footer">
+                        <h4>Communities</h4>
+                        <p>For Artists</p>
+                        <p>Developers</p>
+                        <p>Advertising</p>
+                        <p>Investors</p>
+                        <p>Vendors</p>
+                    </div>
+                    <div class="company-footer">
+                        <h4>Useful links</h4>
+                        <p>Support</p>
+                        <p>Free Mobile App</p>
+                    </div>
+                    <div class="company-footer">
+                        <h4>Harmonify Plans</h4>
+                        <p>Premium Individual</p>
+                        <p>Premium Duo</p>
+                        <p>Premium Student</p>
+                    </div>
+
+
+                    <div class="footer-icons">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="footer-icons">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="footer-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>© 2024 Harmonify AB</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/e4c730e2ad.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
