@@ -1,0 +1,482 @@
+@media (min-width: 756px) and (max-width: 1024px) {
+  .left {
+    position: absolute;
+    left: -120%;
+    transition: all 0.1s ease-in-out;
+    z-index: 1;
+    width: 40%;
+  }
+
+  .library {
+    margin-top: 0;
+  }
+
+  .lang {
+    margin-bottom: 10px;
+  }
+
+  .right {
+    width: 100vw;
+  }
+
+  .company-footer p {
+    font-size: 12px;
+  }
+
+  .company-footer h4 {
+    font-size: 15px;
+  }
+
+  .footer-icons {
+    height: 30px;
+    width: 30px;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .card {
+    height: 400px;
+    width: 31%;
+    margin-bottom: -20px;
+  }
+
+  .card i {
+    position: relative;
+    left: 71%;
+    top: 420%;
+    width: 65px;
+    height: 65px;
+    line-height: 40px;
+    font-size: 26px;
+  }
+
+  .song-time,
+  .song-info {
+    font-size: 0.75rem;
+  }
+
+  .nav .hamburger {
+    display: flex;
+  }
+
+  .nav .hamburger i {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .left .close {
+    display: block;
+    position: absolute;
+    left: 92%;
+    top: 4%;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .volume {
+    position: fixed;
+    left: 77%;
+  }
+}
+
+@media (min-width: 580px) and (max-width: 756px) {
+  .left {
+    position: absolute;
+    left: -120%;
+    transition: all 0.1s ease-in-out;
+    z-index: 1;
+    width: 50%;
+  }
+
+  .library {
+    margin-top: 0;
+  }
+
+  .right {
+    width: 100vw;
+  }
+
+  .playbar {
+    height: 100px;
+  }
+
+  .song-time,
+  .song-info {
+    font-size: 0.7rem;
+  }
+
+  .song-time {
+    left: 65%;
+  }
+
+  .volume {
+    position: fixed;
+    left: 77%;
+    bottom: 42px;
+  }
+
+  .nav .hamburger {
+    display: flex;
+  }
+
+  .nav .hamburger i {
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .left .close {
+    display: block;
+    position: absolute;
+    left: 92%;
+    top: 4%;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .company-footer p {
+    font-size: 10px;
+  }
+
+  .company-footer h4 {
+    font-size: 12px;
+  }
+
+  .footer-icons {
+    height: 25px;
+    width: 25px;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .card {
+    height: 55vh;
+    width: 46%;
+    margin-bottom: -20px;
+  }
+
+  .card i {
+    position: relative;
+    left: 71%;
+    top: 420%;
+    width: 65px;
+    height: 65px;
+    line-height: 40px;
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 471px) and (max-width: 580px) {
+  .left {
+    position: absolute;
+    left: -120%;
+    transition: all 0.1s ease-in-out;
+    z-index: 1;
+    width: 60%;
+  }
+
+  .library {
+    margin-top: 0;
+  }
+
+  .right {
+    width: 100vw;
+  }
+
+  .playbar {
+    height: 110px;
+  }
+
+  .song-time,
+  .song-info {
+    font-size: 0.6rem;
+  }
+
+  .song-time {
+    left: 75%;
+  }
+
+  .volume {
+    position: fixed;
+    left: 35%;
+  }
+
+  .seekbar {
+    width: 50%;
+    left: 27%;
+    bottom: 14px;
+  }
+
+  .song-info {
+    left: 8px;
+  }
+
+  .nav .hamburger {
+    display: flex;
+  }
+
+  .nav .hamburger i {
+    font-size: 1.7rem;
+    cursor: pointer;
+  }
+
+  .left .close {
+    display: block;
+    position: absolute;
+    left: 92%;
+    top: 4%;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .card {
+    height: 330px;
+    width: 47%;
+    margin-bottom: -20px;
+  }
+
+  .card i {
+    position: relative;
+    left: 71%;
+    top: 420%;
+    width: 65px;
+    height: 65px;
+    line-height: 40px;
+    font-size: 26px;
+  }
+
+  .footer-right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+}
+
+@media (min-width: 413px) and (max-width: 471px) {
+  .left {
+    position: absolute;
+    left: -120%;
+    transition: all 0.1s ease-in-out;
+    z-index: 1;
+    width: 100%;
+  }
+
+  .library {
+    margin-top: 0;
+  }
+
+  .right {
+    width: 100vw;
+  }
+
+  .nav .hamburger {
+    display: flex;
+  }
+
+  .nav .hamburger i {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .left .close {
+    display: block;
+    position: absolute;
+    left: 91%;
+    top: 4%;
+    font-size: 1.6rem;
+    cursor: pointer;
+  }
+
+  .sign-up {
+    position: absolute;
+    left: 38%;
+    width: 100px;
+    font-size: 14px;
+  }
+
+  .log-in {
+    position: absolute;
+    left: 68%;
+    width: 90px;
+    font-size: 14px;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .card {
+    height: 75vh;
+    width: 95%;
+    margin-bottom: -20px;
+  }
+
+  .card i {
+    position: relative;
+    left: 71%;
+    top: 420%;
+    width: 65px;
+    height: 65px;
+    line-height: 40px;
+    font-size: 26px;
+  }
+
+  .footer-right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .playbar {
+    height: 140px;
+    padding: 10px;
+  }
+
+  .song-info {
+    top: -6px;
+    left: 25%;
+    text-align: start;
+    padding-left: 10px;
+  }
+
+  .volume {
+    left: 77%;
+    bottom: 15px;
+  }
+
+  .song-time {
+    top: 5px;
+    left: 40%;
+  }
+
+  .seekbar {
+    width: 70%;
+    left: 17%;
+    bottom: 10px;
+  }
+
+  .volume {
+    left: 29%;
+    bottom: 15%;
+  }
+}
+
+@media screen and (max-width: 413px) {
+  .left {
+    position: absolute;
+    left: -120%;
+    transition: all 0.1s ease-in-out;
+    z-index: 1;
+    width: 100%;
+  }
+
+  .right {
+    width: 100vw;
+  }
+
+  .library {
+    margin-top: 0;
+  }
+
+  .nav .hamburger {
+    display: flex;
+  }
+
+  .nav .hamburger i {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .left .close {
+    display: block;
+    position: absolute;
+    left: 91%;
+    top: 4%;
+    font-size: 1.6rem;
+    cursor: pointer;
+  }
+
+  .sign-up {
+    position: absolute;
+    left: 38%;
+    width: 100px;
+    font-size: 14px;
+  }
+
+  .log-in {
+    position: absolute;
+    left: 68%;
+    width: 90px;
+    font-size: 14px;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .card {
+    height: 58vh;
+    width: 95%;
+    margin-bottom: -20px;
+  }
+
+  .card i {
+    position: relative;
+    left: 71%;
+    top: 420%;
+    width: 65px;
+    height: 65px;
+    line-height: 40px;
+    font-size: 26px;
+  }
+  .footer-right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .playbar {
+    height: 140px;
+    padding: 10px;
+  }
+
+  .song-info {
+    top: -6px;
+    left: 25%;
+    text-align: start;
+    padding-left: 10px;
+  }
+
+  .volume {
+    left: 77%;
+    bottom: 15px;
+  }
+
+  .song-time {
+    top: 5px;
+    left: 40%;
+  }
+
+  .seekbar {
+    width: 70%;
+    left: 17%;
+    bottom: 10px;
+  }
+
+  .volume {
+    left: 29%;
+    bottom: 15%;
+  }
+}
