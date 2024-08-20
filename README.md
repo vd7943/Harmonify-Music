@@ -1,4 +1,5 @@
-#Harmonify Music Player Web App
+Harmonify Music Player Web App
+
 #Overview
 Harmonify is a fully responsive web-based music player that offers a sleek and intuitive interface for listening to and managing your music collection. Whether you're on a desktop, tablet, or smartphone, Harmonify adapts seamlessly to your device, ensuring a consistent and enjoyable user experience.
 
